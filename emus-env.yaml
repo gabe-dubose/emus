@@ -1,0 +1,7 @@
+name: emus
+dependencies:
+  - python=3.*
+  - matplotlib
+  - seaborn
+  - pandas
+  - bioconda::snpeff
