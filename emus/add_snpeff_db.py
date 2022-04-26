@@ -18,7 +18,7 @@ parser.add_argument('-n', '--note',
     help = 'Comment to help identify database in config file when manually searching')
 
 #arguments to find and get pre-built databases
-parser.add_argument('-f', '--find', default = '', metavar = '<Database ID>',
+parser.add_argument('-s', '--search', default = '', metavar = '<Database ID>',
     help = "Find pre-built database: format search input as 'genus_species'")
 parser.add_argument('-d', '--download_db', default = '', metavar = 'Database ID', 
     help = "Database ID to download from SnpEff")
