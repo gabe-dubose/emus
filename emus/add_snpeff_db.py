@@ -96,8 +96,8 @@ class MakeSnpEffdb:
 
 
 #search for database
-if len(args.find) != 0:
-    MakeSnpEffdb.find_databases(args.find)
+if len(args.search) != 0:
+    MakeSnpEffdb.find_databases(args.search)
     exit()
 
 if len(args.download_db) != 0:
