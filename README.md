@@ -1,4 +1,5 @@
 # Evaluation of MUtations via reference Simulation: EMUS
+ <p align="center"><img src="emus-logo.png" height="150" /></p>
 **Version 1.0.0**
 
 NOTE: THIS PROGRAM IS STILL UNDER DEVELOPMENT AND NOT READY FOR GENERAL USE.
