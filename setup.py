@@ -19,5 +19,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ),
-    scripts=['bin/add-snpeff-db', 'bin/annotate-variants', 'bin/compare-variants', 'bin/plot-variant-comparisons', 'bin/plot-vcf-histogram', 'bin/read-vcf', 'bin/simulate-mutations']
+    scripts=['bin/compare-variants', 'bin/plot-variant-comparisons', 'bin/plot-vcf-histogram', 'bin/get-annotations', 'bin/simulate-mutations']
 )
