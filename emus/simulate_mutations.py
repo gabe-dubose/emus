@@ -34,7 +34,7 @@ class GenomeSequence:
         while mutation_count < number:
             variant = random.choices(alphabet, k=1)
             variant = variant[0]
-            seqid = random.sample(sequences, 1)
+            seqid = random.choices(sequences, k=1)
             seqid = seqid[0]
             position = random.randint(0, len(genome[seqid]) - 1)
             original = str(genome[seqid][position]).upper()
