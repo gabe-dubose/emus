@@ -15,12 +15,6 @@ parser.add_argument('-o', '--output', metavar = '<output_file.vcf>',
     help = "Handle that will be added to the output VCF file")
 args = parser.parse_args()
 
-
-#genome = pyfaidx.Fasta(args.input)
-#print(genome.keys())
-#print(genome['BX284602.5'][200:300])
-#print(len(genome['BX284602.5']))
-
 class GenomeSequence:
     def __init__(self, genome):
         self.genome = genome
