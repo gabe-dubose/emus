@@ -78,7 +78,7 @@ This program will produce a plain .tsv file that will have the probability value
 With the .boostraps.tsv file generated in the previous step, EMUS offers plotting options to generate publication quality figures. These visualizations include histograms, kernel density estimate (KDE) plots, emperical cumulative density estimate plots (ECDF), as well as options for figure customization and coloring.
 ```
 mkdir out_dir
-compare-variants \
+plot-variant-comparisons \
 -i/--input          <data.bootstraps.tsv> \
 -o/--outdir         <out_dir>  \
 Optional Flags:
